@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42558B6243EB1EE00100FE2 /* JarodAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C42558B4243EB1EE00100FE2 /* JarodAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42558B7243EB1EE00100FE2 /* JarodAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C42558B5243EB1EE00100FE2 /* JarodAlertView.m */; };
+		C428EBCA243DC939003F8CA1 /* JarodSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C428EBC0243DC939003F8CA1 /* JarodSDK.framework */; };
+		C428EBCF243DC939003F8CA1 /* JarodSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EBCE243DC939003F8CA1 /* JarodSDKTests.m */; };
+		C428EBD1243DC939003F8CA1 /* JarodSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C428EBC3243DC939003F8CA1 /* JarodSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C428EBE7243DC96B003F8CA1 /* UIView+FrameCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = C428EBDE243DC96B003F8CA1 /* UIView+FrameCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C428EBE8243DC96B003F8CA1 /* NSString+GetSizeOfText.h in Headers */ = {isa = PBXBuildFile; fileRef = C428EBDF243DC96B003F8CA1 /* NSString+GetSizeOfText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C428EBE9243DC96B003F8CA1 /* NSString+json.h in Headers */ = {isa = PBXBuildFile; fileRef = C428EBE0243DC96B003F8CA1 /* NSString+json.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C428EBEA243DC96B003F8CA1 /* UIButton+OnClick.h in Headers */ = {isa = PBXBuildFile; fileRef = C428EBE1243DC96B003F8CA1 /* UIButton+OnClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C428EC3C243DD135003F8CA1 /* NSString+GetSizeOfText.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EBDC243DC96B003F8CA1 /* NSString+GetSizeOfText.m */; };
+		C428EC3D243DD139003F8CA1 /* NSString+json.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EBE3243DC96B003F8CA1 /* NSString+json.m */; };
+		C428EC3E243DD13C003F8CA1 /* UIButton+OnClick.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EBDB243DC96B003F8CA1 /* UIButton+OnClick.m */; };
+		C428EC3F243DD140003F8CA1 /* UIView+FrameCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = C428EBDD243DC96B003F8CA1 /* UIView+FrameCoordinate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C428EBCB243DC939003F8CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C428EBB7243DC939003F8CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C428EBBF243DC939003F8CA1;
+			remoteInfo = JarodSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42558B4243EB1EE00100FE2 /* JarodAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JarodAlertView.h; sourceTree = "<group>"; };
+		C42558B5243EB1EE00100FE2 /* JarodAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JarodAlertView.m; sourceTree = "<group>"; };
+		C428EBC0243DC939003F8CA1 /* JarodSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JarodSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C428EBC3243DC939003F8CA1 /* JarodSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JarodSDK.h; sourceTree = "<group>"; };
+		C428EBC4243DC939003F8CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C428EBC9243DC939003F8CA1 /* JarodSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarodSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C428EBCE243DC939003F8CA1 /* JarodSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JarodSDKTests.m; sourceTree = "<group>"; };
+		C428EBD0243DC939003F8CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C428EBDB243DC96B003F8CA1 /* UIButton+OnClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+OnClick.m"; sourceTree = "<group>"; };
+		C428EBDC243DC96B003F8CA1 /* NSString+GetSizeOfText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GetSizeOfText.m"; sourceTree = "<group>"; };
+		C428EBDD243DC96B003F8CA1 /* UIView+FrameCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameCoordinate.m"; sourceTree = "<group>"; };
+		C428EBDE243DC96B003F8CA1 /* UIView+FrameCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameCoordinate.h"; sourceTree = "<group>"; };
+		C428EBDF243DC96B003F8CA1 /* NSString+GetSizeOfText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GetSizeOfText.h"; sourceTree = "<group>"; };
+		C428EBE0243DC96B003F8CA1 /* NSString+json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+json.h"; sourceTree = "<group>"; };
+		C428EBE1243DC96B003F8CA1 /* UIButton+OnClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+OnClick.h"; sourceTree = "<group>"; };
+		C428EBE3243DC96B003F8CA1 /* NSString+json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+json.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C428EBBD243DC939003F8CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C428EBC6243DC939003F8CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C428EBCA243DC939003F8CA1 /* JarodSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C428EBB6243DC939003F8CA1 = {
+			isa = PBXGroup;
+			children = (
+				C428EBC2243DC939003F8CA1 /* JarodSDK */,
+				C428EBCD243DC939003F8CA1 /* JarodSDKTests */,
+				C428EBC1243DC939003F8CA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C428EBC1243DC939003F8CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C428EBC0243DC939003F8CA1 /* JarodSDK.framework */,
+				C428EBC9243DC939003F8CA1 /* JarodSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C428EBC2243DC939003F8CA1 /* JarodSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C428EBDF243DC96B003F8CA1 /* NSString+GetSizeOfText.h */,
+				C428EBDC243DC96B003F8CA1 /* NSString+GetSizeOfText.m */,
+				C428EBE0243DC96B003F8CA1 /* NSString+json.h */,
+				C428EBE3243DC96B003F8CA1 /* NSString+json.m */,
+				C428EBE1243DC96B003F8CA1 /* UIButton+OnClick.h */,
+				C428EBDB243DC96B003F8CA1 /* UIButton+OnClick.m */,
+				C428EBDE243DC96B003F8CA1 /* UIView+FrameCoordinate.h */,
+				C428EBDD243DC96B003F8CA1 /* UIView+FrameCoordinate.m */,
+				C42558B4243EB1EE00100FE2 /* JarodAlertView.h */,
+				C42558B5243EB1EE00100FE2 /* JarodAlertView.m */,
+				C428EBC3243DC939003F8CA1 /* JarodSDK.h */,
+				C428EBC4243DC939003F8CA1 /* Info.plist */,
+			);
+			path = JarodSDK;
+			sourceTree = "<group>";
+		};
+		C428EBCD243DC939003F8CA1 /* JarodSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				C428EBCE243DC939003F8CA1 /* JarodSDKTests.m */,
+				C428EBD0243DC939003F8CA1 /* Info.plist */,
+			);
+			path = JarodSDKTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C428EBBB243DC939003F8CA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C428EBE9243DC96B003F8CA1 /* NSString+json.h in Headers */,
+				C428EBE7243DC96B003F8CA1 /* UIView+FrameCoordinate.h in Headers */,
+				C428EBEA243DC96B003F8CA1 /* UIButton+OnClick.h in Headers */,
+				C42558B6243EB1EE00100FE2 /* JarodAlertView.h in Headers */,
+				C428EBE8243DC96B003F8CA1 /* NSString+GetSizeOfText.h in Headers */,
+				C428EBD1243DC939003F8CA1 /* JarodSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C428EBBF243DC939003F8CA1 /* JarodSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C428EBD4243DC939003F8CA1 /* Build configuration list for PBXNativeTarget "JarodSDK" */;
+			buildPhases = (
+				C428EBBB243DC939003F8CA1 /* Headers */,
+				C428EBBC243DC939003F8CA1 /* Sources */,
+				C428EBBD243DC939003F8CA1 /* Frameworks */,
+				C428EBBE243DC939003F8CA1 /* Resources */,
+				C428EBDA243DC94C003F8CA1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JarodSDK;
+			productName = JarodSDK;
+			productReference = C428EBC0243DC939003F8CA1 /* JarodSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C428EBC8243DC939003F8CA1 /* JarodSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C428EBD7243DC939003F8CA1 /* Build configuration list for PBXNativeTarget "JarodSDKTests" */;
+			buildPhases = (
+				C428EBC5243DC939003F8CA1 /* Sources */,
+				C428EBC6243DC939003F8CA1 /* Frameworks */,
+				C428EBC7243DC939003F8CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C428EBCC243DC939003F8CA1 /* PBXTargetDependency */,
+			);
+			name = JarodSDKTests;
+			productName = JarodSDKTests;
+			productReference = C428EBC9243DC939003F8CA1 /* JarodSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C428EBB7243DC939003F8CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = KuaQu;
+				TargetAttributes = {
+					C428EBBF243DC939003F8CA1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C428EBC8243DC939003F8CA1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C428EBBA243DC939003F8CA1 /* Build configuration list for PBXProject "JarodSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C428EBB6243DC939003F8CA1;
+			productRefGroup = C428EBC1243DC939003F8CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C428EBBF243DC939003F8CA1 /* JarodSDK */,
+				C428EBC8243DC939003F8CA1 /* JarodSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C428EBBE243DC939003F8CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C428EBC7243DC939003F8CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C428EBDA243DC94C003F8CA1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "VALID_ARCHS=\"arm64 armv7 armv7s i386 x86_64\"\nif [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\n#open \"${DEVICE_DIR}\"\nopen \"${SRCROOT}/Products\"\n\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C428EBBC243DC939003F8CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C428EC3F243DD140003F8CA1 /* UIView+FrameCoordinate.m in Sources */,
+				C428EC3E243DD13C003F8CA1 /* UIButton+OnClick.m in Sources */,
+				C428EC3D243DD139003F8CA1 /* NSString+json.m in Sources */,
+				C42558B7243EB1EE00100FE2 /* JarodAlertView.m in Sources */,
+				C428EC3C243DD135003F8CA1 /* NSString+GetSizeOfText.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C428EBC5243DC939003F8CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C428EBCF243DC939003F8CA1 /* JarodSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C428EBCC243DC939003F8CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C428EBBF243DC939003F8CA1 /* JarodSDK */;
+			targetProxy = C428EBCB243DC939003F8CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C428EBD2243DC939003F8CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C428EBD3243DC939003F8CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C428EBD5243DC939003F8CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YXQ5H7S54W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JarodSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = _all_load;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaqu.JarodSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C428EBD6243DC939003F8CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YXQ5H7S54W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JarodSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = _all_load;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaqu.JarodSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C428EBD8243DC939003F8CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXQ5H7S54W;
+				INFOPLIST_FILE = JarodSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaqu.JarodSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C428EBD9243DC939003F8CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXQ5H7S54W;
+				INFOPLIST_FILE = JarodSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaqu.JarodSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C428EBBA243DC939003F8CA1 /* Build configuration list for PBXProject "JarodSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C428EBD2243DC939003F8CA1 /* Debug */,
+				C428EBD3243DC939003F8CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C428EBD4243DC939003F8CA1 /* Build configuration list for PBXNativeTarget "JarodSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C428EBD5243DC939003F8CA1 /* Debug */,
+				C428EBD6243DC939003F8CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C428EBD7243DC939003F8CA1 /* Build configuration list for PBXNativeTarget "JarodSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C428EBD8243DC939003F8CA1 /* Debug */,
+				C428EBD9243DC939003F8CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C428EBB7243DC939003F8CA1 /* Project object */;
+}
